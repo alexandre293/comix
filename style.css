@@ -1,0 +1,54 @@
+body {
+    background-color:white;
+}
+
+.comix_table {
+    width: 600px;
+    height: 900px;
+    background-color:black;
+    margin: auto;
+}
+
+.picture1 {
+    background-image: url(img/pic1.PNG); /* mais image derriere plan */ 
+    background-repeat: no-repeat;        /* que image se multiplie pas */
+    background-position: center;         /* que image sois au centre ( ou a droit ou gauche si en ecris pas center ) */
+    background-size: cover;              /* fais la taille de image (cover image fais tout la taille ) */
+}
+
+.picture2 {
+    background-image: url(img/pic2.PNG);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover ;
+}
+
+.picture3 {
+    background-image: url(img/pic3.PNG);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+}
+
+.header {
+    background-image: url(img/header.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.title {
+    text-align: center;
+}
+
+hr {
+    width: 600px;
+    height: 10px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.alexandre {
+    text-align: center;
+}
